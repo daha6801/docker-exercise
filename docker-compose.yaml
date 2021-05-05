@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dynacorpweb1:
+    image: dynacoprweb:1.0
+    ports:
+      - "80:80"
+    environment:
+      - DYNAWEB_DB=dynadb
